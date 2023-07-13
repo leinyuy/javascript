@@ -30,5 +30,18 @@
 // console.log(temp)
 
 /*working on strings*/
-const string="hello world";
-console.log(string.length)
+// const string="hello world";
+// console.log(string.length);
+
+/*working with arrays*/
+const myArr=[123,45,"hello",null,true,["yo",1,3]];
+console.log(myArr)
+// myArr.pop()
+// myArr.push("COT")
+
+// myArr.shift();
+// myArr.map((i,j)=>{
+//     console.log(`index: ${j} : value ${i}`);
+// })
+
+
