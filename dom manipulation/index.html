@@ -14,10 +14,10 @@
 
             <div class="card-header text-capitalize bg-primary text-white fs-2 fw-bold">User Form</div>
             <div class="card-body">
-                <form>
+                <form id="form">
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Name</label>
-                      <input type="email" placeholder="Please input your name" class="form-control" id="name" aria-describedby="emailHelp">
+                      <input type="text" placeholder="Please input your name" class="form-control" id="name" aria-describedby="emailHelp">
                     </div>
                     
                     <div class="mb-3">
@@ -32,7 +32,7 @@
 
                       <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Address</label>
-                        <input type="number" placeholder="Please enter address" class="form-control" id="address" aria-describedby="emailHelp">
+                        <input type="text" placeholder="Please enter address" class="form-control" id="address" aria-describedby="emailHelp">
                       </div>
                     <button type="submit" class="btn btn-primary">Add User</button>
                   </form>
@@ -53,39 +53,14 @@
                         <th scope="col">Action</th>
                       </tr>
                     </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto@gmail.com</td>
-                        <td>+237 6528956214</td>
-                        <td>address 1</td>
-                        <td>05/11/2019</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornthon@gmail.comd</td>
-                        <td>+245 6521255445</td>
-                        <td>address 2</td>
-                        <td>05/06/2022</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Larry the Bird</td>
-                        <td>larry@gmail.com</td>
-                        <td>+233 6859457525</td>
-                        <td>address 3</td>
-                        <td>05-08-2021</td>
-                        <td><button class="btn btn-danger">Delete</button></td>
-                      </tr>
+                      <tbody id="tableBody"></tbody>
                     </tbody>
                   </table>
             </div>
         <!-- Javascipt link here -->
+        
         <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
 </body>
 
 </html>
